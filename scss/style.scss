@@ -1369,16 +1369,12 @@ textarea.form-control {
 //ABOUT
 .about-author {
 	@include border-radius(5px);
-
-	img {}
-
 	.desc {
 		h3 {
 			font-size: 24px;
 		}
 	}
 
-	.bio {}
 }
 
 
@@ -1613,10 +1609,6 @@ textarea.form-control {
 .ftco-counter {
 	@include media-breakpoint-down(lg) {
 		background-position: center center !important;
-	}
-
-	.icon {
-		span {}
 	}
 
 	.block-18 {
